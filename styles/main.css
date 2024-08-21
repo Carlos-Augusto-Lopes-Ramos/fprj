@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(50, 50, 211), rgb(25, 25, 56), rgb(25, 25, 56), rgb(25, 25, 56), rgb(25, 25, 56));
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#dados {
+    width: 50%;
+    height: 90%;
+    overflow: auto;
+    background-color: rgb(49, 47, 79);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#acoes {
+    width: 20%;
+    height: 50%;
+    background-color: rgb(49, 47, 79);
+    border-radius: 5px;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#acoes label,
+input {
+    min-width: 100%;
+}
+
+#login {
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(49, 47, 79);
+}
