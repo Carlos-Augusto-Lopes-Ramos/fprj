@@ -44,3 +44,11 @@ input {
     padding: 10px;
     background-color: rgb(49, 47, 79);
 }
+
+.menu {
+    display: absolute;
+    position: absolute;
+    background: #000;
+    top: 1%;
+    left: 1%;
+}

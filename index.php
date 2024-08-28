@@ -1,3 +1,8 @@
+<?php
+
+include_once "./computacao/chkLogin.php";
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +15,16 @@
 </head>
 <body>
     <div id="container">
+        <nav class="menu">
+            <ul>
+                <a href="index.php">
+                    <li>Index</li>
+                </a>
+                <a href="logs.php">
+                    <li>logs</li>
+                </a>
+            </ul>
+        </nav>
         <div id="dados">
             <table>
                 <thead>

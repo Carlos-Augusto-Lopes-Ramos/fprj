@@ -1,3 +1,8 @@
+<?php
+
+include_once "./computacao/chkLogin.php";
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
