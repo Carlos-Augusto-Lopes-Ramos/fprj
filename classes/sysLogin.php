@@ -1,10 +1,11 @@
 <?php
 
+include_once("connection.php");
 session_start();
 
 class Login {
 
-    public PDO $con;
+    private PDO $con;
 
     function __construct(PDO $con){
         $this->con = $con;
@@ -57,5 +58,7 @@ class Login {
     }
 
 }
+
+$login = new Login($con);
 
 ?>
